@@ -26,25 +26,25 @@ fn find_partition(arr: &[i32]) -> i32 {
 }
 
 fn main() {
-    // Test case 1
+    
     let arr1 = vec![1, 4, 2, 5, 0];
     println!("Input: {:?}", arr1);
     println!("Output (Position is): {}", find_partition(&arr1));
     println!();
     
-    // Test case 2
+    
     let arr2 = vec![1, 3, 10, 1, 9, 3, 2];
     println!("Input: {:?}", arr2);
     println!("Output (Position is): {}", find_partition(&arr2));
     println!();
     
-    // Test case 3
+    
     let arr3 = vec![4, 2, 2,2];
     println!("Input: {:?}", arr3);
     println!("Output (Position is): {}", find_partition(&arr3));
     println!();
     
-    // Additional test case
+    
     let arr4 = vec![10, 11, 11, 18, 3];
     println!("Input: {:?}", arr4);
     println!("Output (Position is): {}", find_partition(&arr4));
