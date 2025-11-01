@@ -1,0 +1,6 @@
+[package]
+name = "Reverse_an_Array_in_groups_of_given_size"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
